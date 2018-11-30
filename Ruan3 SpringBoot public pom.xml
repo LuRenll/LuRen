@@ -1,0 +1,119 @@
+# This is LuRen's code base
+
+<!--Ruan3 SpringBoot public pom.xml-->
+
+<!--1.Web的依赖-->
+
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+
+
+
+<!--2.测试的依赖-->
+
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-test</artifactId>
+	<scope>test</scope>
+</dependency>
+
+
+
+<!--3.模板引擎Thymeleaf的依赖-->
+
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-thymeleaf</artifactId>
+	<version>2.1.0.RELEASE</version>
+</dependency>
+
+
+
+<!--4.MySQL数据库的依赖-->
+
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.24</version>
+</dependency>
+
+
+
+<!--5.JDBCTemplate的依赖-->
+
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-jdbc</artifactId>
+	<version>2.1.0.RELEASE</version>
+</dependency>
+
+
+
+<!--6.Spring-Data-Jpa的依赖-->
+
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-jpa</artifactId>
+	<version>2.1.0.RELEASE</version>
+</dependency>
+
+
+
+<!--7.文件上传下载的依赖-->
+
+<dependency>
+	<groupId>commons-fileupload</groupId>
+	<artifactId>commons-fileupload</artifactId>
+	<version>1.3.3</version>
+</dependency>
+
+
+
+<!--下列8.9.10是对SpringBoot对JSP的支持-->
+<!--8.添加对servlet的依赖-->
+
+<dependency>
+	<groupId>javax.servlet</groupId>
+	<artifactId>javax.servlet-api</artifactId>
+</dependency>
+
+
+
+<!--9.添加对JSTL的依赖-->
+
+<dependency>
+	<groupId>javax.servlet</groupId>
+	<artifactId>jstl</artifactId>
+	<version>1.2</version>
+</dependency>
+
+
+
+<!--10.添加对jasper的依赖，对jsp进行支持-->
+
+<dependency>
+	<groupId>org.apache.tomcat.embed</groupId>
+	<artifactId>tomcat-embed-jasper</artifactId>
+	<version>9.0.13</version>
+</dependency>
+
+
+
+
+<!--11.mybatis的依赖-->
+
+<dependency>
+	<groupId>org.mybatis.spring.boot</groupId>
+	<artifactId>mybatis-spring-boot-starter</artifactId>
+	<version>1.3.2</version>
+</dependency>
+
+
+
+
+
+
+
+
